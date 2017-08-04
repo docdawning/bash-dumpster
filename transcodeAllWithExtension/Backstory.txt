@@ -1,0 +1,20 @@
+In my efforts to up my "interview game", in order to kick-ass in interviews with my dream company, I opted to download all of the most epic Crack The Coding Interview
+videos from youtube. 
+
+On macOS, I used homebrew to install "youtube-dl", a super-helpful YouTube download script, which also works with whole playlists..
+
+I invoked it as:
+youtube-dl --yes-playlist https://www.youtube.com/playlist?list=PLX6IKgS15Ue02WDPRCmYKuZicQHit9kFt
+
+This loaded all ~33 videos in to my working directory. Many had mkv file extensions, yuck.
+
+I created the crappy little script here to normalize them all to mp4 files.
+
+./transcodeAllWithExtension.sh mk4 mp4
+
+ohh.. And I used ffmpeg (also installed via homebrew) to do the serious work.
+
+-James T Snell, the last
+https://jamessnell.com
+2017-08-04
+

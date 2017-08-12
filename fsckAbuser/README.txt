@@ -5,10 +5,10 @@ and then I would be sad. So I at least scripted rsync backups of the seriously i
 less important stuff hung out there, waiting for the enevitable.
 
 Over the years, my LVM went through many disk changes. It was in service for about 12 years without
-a single failure and with all original long drives long since replaced before I actually spawned a
+a single failure and with all original drives replaced along the way. I eventually spawned a
 new LVM (I wanted to get away from ReiserFS and just use ext4). The new LVM lived only across 3 drives,
 rather than a peak of 7 drives in the original faithful setup. After about two years on the new LVM,
-two of my drives, both cheap Seagate ones, died.
+two of my drives, both the cheapest possible Seagate ones, died.
 
 I managed to get most of one of the drives using DD rescue. I dumped its contents to a file on a new
 massive drive. The other drive I only got a tiny bit of. I tried various repair efforts including 
